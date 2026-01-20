@@ -12,7 +12,7 @@ const ProductSchema = mongoose.Schema({
     isAvailable: { type: Boolean, default: true },
     MFG: { type: Date },
     EXP: { type: Date },
-    owner: { type: mongoose.Schema.Types.ObjectId, ref: "User" }
+    // owner: { type: mongoose.Schema.Types.ObjectId, ref: "User" }
 }, {
     timestamps: true
 });
